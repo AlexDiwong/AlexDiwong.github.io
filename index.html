@@ -11,13 +11,13 @@
 <body>
   <div class="page-wrapper">
 
-    <nav class="navbar top-top navbar-expand-lg navbar-light bg-light justify-content-between">
-      <a class="navbar-brand" href="#">Cillex 2021</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light justify-content-between">
+      <!-- <a class="navbar-brand" href="#">Cillex 2021</a> -->
+      <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link" href="#">Home</a>
         </div>
@@ -33,19 +33,37 @@
       </div>
     </nav>
 
-    <div class="card bg-light">
+    <div class="card bg-light mx-auto mt-5">
       <div class="img-wrapper">
-        <img class="card-img" src="./assets/images/beach.JPG" alt="Responsive image">
-        <div class="card-img-overlay w-50 text-center mx-auto mt-4">
+        <img class="card-img img-fluid" src="./assets/images/beach.JPG" alt="">
+        <div class="card-img-overlay w-75 h-25 text-center mx-auto mt-5">
           <h1 class="fancy-font-title">Cecilia & Alexander</h1>
           <h2 class="fancy-font-title">October 2, 2021</h2>
+        </div>
+        <div class="card-img-overlay align-bottom w-75 h-25 align-items-end text-center mx-auto mt-auto">
           <div id="clock-c"></div>
         </div>
       </div>
     </div>
 
     <div class="container">
-      Lite text här nere.
+      <h1 class="text-center">Wedding Day Itinerary</h1>
+      <div class="card text-white bg-primary mx-auto mb-3" style="max-width: 30rem;">
+        <div class="card-header">Ceremony</div>
+        <p class="card-text">Vi viger oss!</p>
+      </div>
+      <div class="card text-white bg-secondary mx-auto mb-3" style="max-width: 30rem;">
+        <div class="card-header">Boat</div>
+        <p class="card-text">Vi åker båt!</p>
+      </div>
+      <div class="card text-white bg-info mx-auto mb-3" style="max-width: 30rem;">
+        <h5 class="card-title text-center">Party</h5>
+        <p class="card-title text-center">Vi har fest!</p>
+      </div>
+      <div class="card mx-auto mb-3" style="max-width: 30rem;">
+        <h5 class="card-title text-center">Busses</h5>
+        <p class="card-title text-center">Vi åker buss!</p>
+      </div>
     </div>
     <div class="container">
       Lite text här nere.
@@ -54,7 +72,7 @@
     <div class="container" id="wedding-party">
       Lite text här nere.
     </div>
-    <div class="container" >
+    <div class="container">
       Lite text här nere.
     </div>
     <div class="container">

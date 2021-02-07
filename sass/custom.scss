@@ -1,0 +1,43 @@
+// Import fonts
+@font-face{
+  font-family: 'Great-Vibes';
+  src: url(../assets/fonts/great-vibes-font/GreatVibes-A7yL.otf) format('opentype');
+}
+
+@font-face{
+  font-family: 'weather';
+  src: url(../assets/fonts/WeatherSundayPersonalUse-D5qx.otf) format('opentype');
+}
+
+@font-face{
+  font-family: 'backslash';
+  src: url(../assets/fonts/backslash-font/Backslash-RpJol.otf) format('opentype');
+}
+
+
+.fancy-font-title {
+  font-family: 'Great-Vibes';
+  color: #fefefa;
+  padding: 0.5rem;
+  z-index: 1;
+}
+
+.blur-background {
+  backdrop-filter: blur(4px);
+}
+
+$body-bg: #fefefa;
+// $body-color: #fefefa;
+$theme-colors: (
+  // "primary":    ..,
+  // "secondary":  ..,
+  // "success":    ..,
+  // "info":       ..,
+  // "warning":    ..,
+  // "danger":     ..,
+  "light":      #fefefa,
+  // "dark":       ..
+);
+
+// Bootstrap and its default variables
+@import "./bootstrap-4.3.1/scss/bootstrap";

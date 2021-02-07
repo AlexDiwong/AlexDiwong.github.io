@@ -4,19 +4,9 @@
   src: url(../assets/fonts/great-vibes-font/GreatVibes-A7yL.otf) format('opentype');
 }
 
-@font-face{
-  font-family: 'weather';
-  src: url(../assets/fonts/WeatherSundayPersonalUse-D5qx.otf) format('opentype');
-}
-
-@font-face{
-  font-family: 'backslash';
-  src: url(../assets/fonts/backslash-font/Backslash-RpJol.otf) format('opentype');
-}
-
 
 .fancy-font-title {
-  font-family: 'Great-Vibes';
+  // font-family: 'Great-Vibes';
   color: #fefefa;
   padding: 0.5rem;
   z-index: 1;

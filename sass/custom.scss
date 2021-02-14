@@ -1,13 +1,23 @@
 // Import fonts
 @font-face{
-  font-family: 'Great-Vibes';
-  src: url(../assets/fonts/great-vibes-font/GreatVibes-A7yL.otf) format('opentype');
+  font-family: 'edwardian';
+  src: url(../assets/fonts/edwardian-script-itc-regular.ttf) format('truetype');
+}
+
+@font-face{
+  font-family: 'yugothil';
+  src: url(../assets/fonts/yugothil.ttf) format('truetype');
 }
 
 
 .fancy-font-title {
-  // font-family: 'Great-Vibes';
-  color: #fefefa;
+  font-family: 'edwardian';
+  padding: 0.5rem;
+  z-index: 1;
+}
+
+.pretty-font {
+  font-family: 'yugothil';
   padding: 0.5rem;
   z-index: 1;
 }
@@ -17,7 +27,8 @@
 }
 
 $body-bg: #fefefa;
-// $body-color: #fefefa;
+$body-color: #73777c;
+$font-family-sans-serif: "yugothil", sans-serif;
 $theme-colors: (
   // "primary":    ..,
   // "secondary":  ..,

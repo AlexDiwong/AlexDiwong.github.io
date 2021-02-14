@@ -13,76 +13,101 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light justify-content-between">
       <!-- <a class="navbar-brand" href="#">Cillex 2021</a> -->
-      <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link text-center" href="#">Home</a>
         </div>
         <div class="navbar-nav">
-          <a class="nav-link" href="#">Our Story</a>
+          <a class="nav-link text-center" href="#itineary">Itineary</a>
         </div>
         <div class="navbar-nav">
-          <a class="nav-link" href="#wedding-party">Wedding Party</a>
+          <a class="nav-link text-center" href="#wedding-party">Wedding Party</a>
         </div>
         <div class="navbar-nav">
-          <a class="nav-link" href="#">OSA</a>
+          <a class="nav-link text-center" href="#">OSA</a>
         </div>
       </div>
     </nav>
 
     <div class="card">
       <div class="img-wrapper">
-        <img class="card-img img-fluid" src="./assets/images/beach.JPG" alt="">
-        <div class="card-img-overlay mx-auto text-center mt-5">
-          <h1 class="fancy-font-title">Cecilia & Alexander</h1>
-          <h2 class="fancy-font-title">October 2, 2021</h2>
+        <img class="card-img d-block img-fluid" src="./assets/images/beach.JPG" alt="">
+        <div class="card-img-overlay mt-5">
+          <h1 class="fancy-font-title text-center" style="color: #fefefa">Cecilia & Alexander</h1>
+          <h2 class="fancy-font-title text-center" style="color: #fefefa">October 2, 2021</h2>
         </div>
-        <div class="row card-img-overlay justify-content-center">
-          <div id="clock-c" class="align-self-end"></div>
+        <div class="card-img-overlay mt-5 d-flex justify-content-center align-items-end">
+          <div id="clock-c"></div>
         </div>
       </div>
     </div>
 
     <div class="container">
-      <h1 class="text-center">Wedding Day Itinerary</h1>
-      <div class="row justify-content-center">
-        <div class="col-3">
-        <img class="img-thumbnail img-fluid" src="./assets/images/oscarskyrkan.jpg" alt="">
+      <a name="itineary"></a>
+      <hr class="mt-5 mb-5">
+      <h1 class="text-center">Itinieary</h1>
+      <div class="row justify-content-center pt-3">
+        <h2 class="text-center col-12">Day Before</h2>
+        <h4 class="text-center col-12">Attire</h4>
+        <p>Party Casual</p>
+      </div>
+      <div class="row justify-content-center pt-3">
+        <h2 class="text-center col-12">Wedding Day</h2>
+        <h4 class="text-center col-12">Attire</h4>
+        <p>Dark suit & Long Dress</p>
+      </div>
+      <hr>
+      <div class="row justify-content-center pt-3">
+        <div class="col-10 col-sm-3">
+          <img class="img-thumbnail d-block rounded mx-auto" src="./assets/images/oscarskyrkan.jpeg" alt="">
         </div>
-        <div class="col-6">
-          <H5>Ceremony</H5>
-          <p class="card-text">Vi viger oss!</p>
+        <div class="col-10 col-sm-6">
+          <H5 class="text-center">14.30 Ceremony</H5>
+          <p class="card-text">The ceremony will take place at Oscarskyrkan in Stockholm.</p>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-6">
-          <H5>Boat</H5>
-          <p class="card-text">Vi åker båt!</p>
+      <hr>
+      <div class="row justify-content-center pt-3">
+        <div class="col-10 col-sm-6 order-12 order-sm-1">
+          <H5 class="text-center">16.15 Transport</H5>
+          <p class="card-text">After the ceremony we will be travelling by boat to the reception.</p>
         </div>
-        <div class="col-3">
-        <img class="img-thumbnail img-fluid" src="./assets/images/farja.jpeg" alt="">
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-3">
-          <H5>Fest</H5>
-        </div>
-        <div class="col-6">
-          <p class="card-text">Vi festar lite fest!</p>
+        <div class="col-10 col-sm-3 order-1 order-sm-12">
+          <img class="img-thumbnail d-block mx-auto rounded" src="./assets/images/boat.jpg" alt="">
         </div>
       </div>
+      <hr>
+      <div class="row justify-content-center">
+        <div class="col-10 col-sm-3">
+          <img class="img-thumbnail d-block mx-auto rounded" src="./assets/images/ekensdal.jpg" alt="">
+        </div>
+        <div class="col-10 col-sm-6">
+          <H5 class="text-center">17.00 Reception</H5>
+          <p class="card-text">The boat arrives at Ekensdal around 17.00 where we will start the evening with some mingling before we sit down for the dinner.</p>
+        </div>
+      </div>
+      <hr>
       <div class="row justify-content-center">
         <div class="col-6">
-          <p class="card-text">Vi åker buss!</p>
+          <H5 class="text-center">02.00 End of Evening</H5>
+          <p class="card-text">At 2 am we will have emptied the bar, danced our legs to a pulp, and the party will unfortunately have come to an end. We have arranged buses that will
+            tansport you to the center of Stockholm.</p>
         </div>
         <div class="col-3">
-          <H5>Buss</H5>
+          <img class="img-thumbnail d-block mx-auto rounded" src="./assets/images/cissialex.JPG" alt="">
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="container">
+    <a name="wedding-party"></a>
+    <hr class="mt-5 mb-5">
+    <h1 class="text-center">Wedding Party</h1>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

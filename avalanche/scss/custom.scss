@@ -1,0 +1,14 @@
+
+// Bootstrap and its default variables
+// Required
+@import "./bootstrap/functions";
+
+// Default variable overrides
+$body-bg: #fefefa;
+$body-color: #73777c;
+
+// Required
+@import "./bootstrap/variables";
+@import "./bootstrap/mixins";
+@import "./bootstrap/root";
+@import "./blockquote.scss";
